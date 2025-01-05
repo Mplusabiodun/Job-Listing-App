@@ -1,0 +1,9 @@
+.header {
+  background-image: url("../assets/images/bg-header-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 5rem;
+  width: 100%;
+  background-color: red;
+}
