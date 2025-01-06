@@ -1,0 +1,11 @@
+.container {
+  background-color: hsl(180, 52%, 96%);
+  width: 100%;
+  margin: 0;
+
+  /* height: 2rem; */
+}
+.container2 {
+  margin: 0;
+  padding: 0;
+}

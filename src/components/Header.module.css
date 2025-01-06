@@ -3,7 +3,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 5rem;
+  height: 8rem;
   width: 100%;
-  background-color: red;
+  background-color: hsl(180, 29%, 50%);
 }
