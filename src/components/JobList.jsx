@@ -7,16 +7,16 @@ export default function JobList() {
     <li className={classes.joblist}>
       <img src={imageName} alt="photosnap" id={classes.image} />
       <div>
-        <div>
+        <div className={classes.photo_new_feature}>
           <h3>Photosnap</h3>
-          <p>NEW!</p>
-          <p>FEATURED</p>
+          <p className={classes.new}>NEW!</p>
+          <p className={classes.featured}>FEATURED</p>
         </div>
-        <h3>Senior Frontend Developer</h3>
-        <div>
+        <h3 className={classes.senior}>Senior Frontend Developer</h3>
+        <div className={classes.date_loaction}>
           <p>1d ago</p>
           <ul>
-            <li>Full time</li>
+            <li>Full Time</li>
             <li>USA only</li>
           </ul>
         </div>

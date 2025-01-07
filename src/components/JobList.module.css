@@ -1,8 +1,60 @@
 .joblist {
   background-color: hsl(180, 31%, 95%);
   /* background-color: red; */
-  width: 80%;
-  padding-top: 2rem;
-  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  padding: 2rem 1rem;
+  margin: 0rem auto;
   list-style-type: none;
+}
+#image {
+  width: 5rem;
+  height: 5rem;
+  margin-right: 2.5rem;
+}
+.photo_new_feature {
+  display: flex;
+  flex-direction: row;
+}
+.photo_new_feature h3 {
+  font-size: 17px;
+  color: hsl(180, 29%, 50%);
+}
+.photo_new_feature .new,
+.photo_new_feature .featured {
+  font-size: 13px;
+  background-color: hsl(180, 29%, 50%);
+  color: white;
+  margin: 0 9px;
+  padding: 3px 5px 2px 6px;
+  border-radius: 8px;
+  letter-spacing: 0.8px;
+  font-weight: 600;
+}
+.photo_new_feature .featured {
+  background-color: black;
+  color: white;
+  margin: 0;
+}
+
+.senior {
+  margin: 0.8rem 0;
+  font-size: 20px;
+}
+.date_loaction {
+  display: flex;
+  flex-direction: row;
+  opacity: 0.5;
+  font-weight: 500;
+}
+.date_loaction p {
+  margin-right: 2rem;
+}
+.date_loaction ul {
+  display: flex;
+  flex-direction: row;
+}
+.date_loaction li {
+  margin-right: 2rem;
 }
