@@ -1,12 +1,10 @@
-/* .container {
+.container {
   background-color: hsl(180, 52%, 96%);
   width: 100%;
   margin: 0;
-
-} */
+  padding: 3rem 0;
+}
 .container2 {
   background-color: hsl(180, 52%, 96%);
   width: 100%;
-  margin: 0;
-  padding: 0;
 }

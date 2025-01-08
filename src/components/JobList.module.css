@@ -1,18 +1,25 @@
 .joblist {
-  background-color: hsl(180, 31%, 95%);
-  /* background-color: red; */
+  /* background-color: hsl(180, 31%, 95%); */
+  background-color: hsl(180, 52%, 96%);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   width: 70%;
-  padding: 2rem 1rem;
-  margin: 0rem auto;
+  padding: 2rem;
+  margin: 2rem auto;
   list-style-type: none;
+}
+.data_container {
+  display: flex;
 }
 #image {
   width: 5rem;
   height: 5rem;
   margin-right: 2.5rem;
 }
+
 .photo_new_feature {
   display: flex;
   flex-direction: row;
@@ -27,7 +34,7 @@
   background-color: hsl(180, 29%, 50%);
   color: white;
   margin: 0 9px;
-  padding: 3px 5px 2px 6px;
+  padding: 4px 5px 3px 6px;
   border-radius: 8px;
   letter-spacing: 0.8px;
   font-weight: 600;
@@ -57,4 +64,20 @@
 }
 .date_loaction li {
   margin-right: 2rem;
+}
+.skills {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 2rem 0 2rem 0;
+}
+.skills li {
+  font-size: 15px;
+  background-color: hsl(180, 52%, 96%);
+  color: hsl(180, 29%, 50%);
+  padding: 3px 5px 0px;
+  border-radius: 5px;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+  margin-left: 1rem;
 }
