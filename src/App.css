@@ -5,25 +5,13 @@
   font-size: 15px;
   font-family: "League Spartan";
 }
-/* @keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.parent_container {
+  position: relative;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.parent {
+  position: absolute;
+  top: 5rem;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-} */

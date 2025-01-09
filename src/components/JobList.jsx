@@ -1,7 +1,7 @@
 import classes from "./JobList.module.css";
 import SkillsList from "./SkillsList";
 
-import imageName from "./images/photosnap.svg";
+import imageName from "../assets/images/photosnap.svg";
 // import tryThis from ".";
 
 export default function JobList({ data }) {
