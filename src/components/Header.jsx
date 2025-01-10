@@ -1,6 +1,6 @@
 import classes from "./Header.module.css";
 
-import hamburger from "../assets/images/hamburger.png";
+import hamburger from "../assets/images/Hamburger.png";
 import Modal from "./Modal.jsx";
 import { useState } from "react";
 
