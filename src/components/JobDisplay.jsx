@@ -11,6 +11,15 @@ export default function JobDisplay() {
           <JobList key={data.id} data={data} />
         ))}
       </ul>
+
+      <div className={classes.attribution}>
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+          Frontend Mentor
+        </a>
+        . Coded by
+        <a href="https://m-abiodun-fatai.netlify.app">Fatai Monsuru A</a>.
+      </div>
     </div>
   );
 }

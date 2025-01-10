@@ -1,5 +1,4 @@
 .joblist {
-  /* background-color: hsl(180, 31%, 95%); */
   background-color: hsl(180, 52%, 97%);
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
@@ -64,6 +63,9 @@
 }
 .date_loaction li {
   margin-right: 2rem;
+}
+hr {
+  display: none;
 }
 .skills {
   display: flex;
@@ -132,4 +134,57 @@
 
 /* Mobile ----------- */
 @media only screen and (max-width: 767px) {
+  .joblist {
+    flex-direction: column;
+    padding: 2rem 2.3rem 2rem 2rem;
+    margin: 4rem auto;
+  }
+  .data_container {
+    flex-direction: column;
+  }
+  #image {
+    width: 6rem;
+    height: 6rem;
+    margin: -4.3rem 0 1rem 0;
+  }
+  .photo_new_feature h3 {
+    font-size: 17px;
+    letter-spacing: 1px;
+  }
+  .photo_new_feature .new,
+  .photo_new_feature .featured {
+    font-size: 15px;
+    padding: 7px 7px 6px 8px;
+    border-radius: 10px;
+    margin: 0 11px;
+  }
+  .senior {
+    font-size: 20px;
+  }
+  .date_loaction {
+    opacity: 0.65;
+  }
+  .date_loaction p {
+    margin: 0 1rem 0 -0.8rem;
+    color: black;
+  }
+  .date_loaction li {
+    margin: 0.6rem 1.8rem 0 0;
+  }
+  hr {
+    display: flex;
+    height: 5px;
+    width: 100%;
+    margin: 0.8rem 0;
+  }
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem 0 0rem -0.8rem;
+  }
+  .skills li {
+    font-size: 15px;
+    padding: 9px 9px 7px;
+    letter-spacing: 0.8px;
+  }
 }

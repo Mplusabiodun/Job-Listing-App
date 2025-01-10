@@ -8,3 +8,20 @@
   background-color: inherit;
   width: 100%;
 }
+.attribution {
+  margin: 1rem auto;
+  text-align: center;
+  font-size: 17px;
+}
+.attribution a {
+  margin: 0 0 0 8px;
+  /*   */
+}
+@media only screen and (max-width: 767px) {
+  .container {
+    /* background-color: hsl(180, 52%, 93%);
+    width: 100%;
+    margin: 0; */
+    padding: 1rem 0;
+  }
+}

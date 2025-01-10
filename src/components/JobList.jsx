@@ -25,6 +25,7 @@ export default function JobList({ data }) {
             </ul>
           </div>
         </div>
+        <hr />
       </div>
       <ul className={classes.skills}>
         {skills.map((skill, index) => (
