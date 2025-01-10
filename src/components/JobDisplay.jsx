@@ -1,13 +1,12 @@
 import classes from "./JobDisplay.module.css";
 import JobList from "./JobList.jsx";
-import info from "../../data.json";
 
-export default function JobDisplay() {
-  console.log(info);
+export default function JobDisplay({ jobListing }) {
+  console.log(jobListing);
   return (
     <div className={classes.container}>
       <ul className={classes.container2}>
-        {info.map((data) => (
+        {jobListing.map((data) => (
           <JobList key={data.id} data={data} />
         ))}
       </ul>

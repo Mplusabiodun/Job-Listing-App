@@ -1,23 +1,25 @@
 import classes from "./Search.module.css";
 
-export default function Search() {
+export default function Search({ onFrontend, onCssJavasript, onClear }) {
   return (
     <div className={classes.parent}>
       <ul>
         <li>
-          <p>Frontend</p>
+          <p onClick={onFrontend}>Frontend</p>
           <span>x</span>
         </li>
         <li>
-          <p>CSS</p>
+          <p onClick={() => onCssJavasript("CSS")}>CSS</p>
           <span>x</span>
         </li>
         <li>
-          <p>Javasript</p>
+          <p onClick={() => onCssJavasript("JavaScript")}>JavaSript</p>
           <span>x</span>
         </li>
       </ul>
-      <p className={classes.clear}>Clear</p>
+      <p className={classes.clear} onClick={onClear}>
+        Clear
+      </p>
     </div>
   );
 }

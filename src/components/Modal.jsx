@@ -1,16 +1,33 @@
 import classes from "./Modal.module.css";
 
-export default function Modal() {
+export default function Modal({
+  onHandleChange,
+  onFrontend,
+  onCssJavascript,
+  onClear,
+}) {
+  function filterFrontEnd() {
+    onFrontend("Frontend");
+    onHandleChange();
+  }
+  function filterCssJavascript(interest) {
+    onCssJavascript(interest);
+    onHandleChange();
+  }
+  function cancelHandler() {
+    onClear();
+    onHandleChange();
+  }
   return (
     <>
       <div className={classes.backdrop}></div>
-      <dialog className={classes.dialog}>
+      <dialog className={classes.dialog} open>
         <ul>
-          <li>Frontend</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
+          <li onClick={filterFrontEnd}>Frontend</li>
+          <li onClick={() => filterCssJavascript("CSS")}>CSS</li>
+          <li onClick={() => filterCssJavascript("JavaScript")}>JavaScript</li>
         </ul>
-        <p>X</p>
+        <p onClick={cancelHandler}>X</p>
       </dialog>
     </>
   );
