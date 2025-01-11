@@ -2,10 +2,10 @@ import classes from "./JobList.module.css";
 import SkillsList from "./SkillsList";
 
 import imageName from "../assets/images/photosnap.svg";
-// import tryThis from ".";
 
 export default function JobList({ data }) {
   const skills = [data.role, data.level, ...data.tools, ...data.languages];
+
   return (
     <li className={classes.joblist}>
       <div className={classes.data_container}>

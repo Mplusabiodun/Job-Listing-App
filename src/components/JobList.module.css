@@ -170,9 +170,11 @@ hr {
   }
   hr {
     display: flex;
-    height: 5px;
+    /* height: 5px; */
+    border: 1px solid black;
     width: 100%;
     margin: 0.8rem 0;
+    opacity: 0.6;
   }
   .skills {
     display: flex;

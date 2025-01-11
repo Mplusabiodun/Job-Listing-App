@@ -20,7 +20,7 @@ export default function Modal({
   }
   return (
     <>
-      <div className={classes.backdrop}></div>
+      <div className={classes.backdrop} onClick={cancelHandler}></div>
       <dialog className={classes.dialog} open>
         <ul>
           <li onClick={filterFrontEnd}>Frontend</li>
