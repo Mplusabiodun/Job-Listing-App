@@ -9,7 +9,7 @@ export default function JobList({ data }) {
   return (
     <li className={classes.joblist}>
       <div className={classes.data_container}>
-        <img src={imageName} alt={data.company} id={classes.image} />
+        <img src={data.logo} alt={data.company} id={classes.image} />
         <div>
           <div className={classes.photo_new_feature}>
             <h3>{data.company}</h3>
